@@ -3,9 +3,9 @@ from glob2 import glob
 import pandas
 import matplotlib
 
-# DİKKAT "sanayi_icio_mex_china_data_prep_v4.ipynb" uygulayıp, ilgili directory'de csv dosyalarını hazırladıktan sonra bu kodun run edilmesi gerekiyor
+# "sanayi_icio_mex_china_data_prep_v4.ipynb" uygulayıp, ilgili directory'de csv dosyalarını hazırladıktan sonra bu kodun calistirilmasi gerekiyor
 
-a=glob("D:/Kaynaklar_Master/OECD_ICIO/all_years_chn_mex_adjusted/*.csv") #DİKKAT kendi directory'nizle değiştirmeyi unutmayın
+a=glob("D:/Kaynaklar_Master/OECD_ICIO/all_years_chn_mex_adjusted/*.csv") 
 
 #Makine sektörü NACE 28, 2005-2018 yılları
 
